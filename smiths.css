@@ -1,0 +1,44 @@
+#red {
+    color: red;
+}
+#girl img {
+    position: relative;
+    float: right;
+    width: 20%;
+}
+#guy img {
+    position: relative;
+    float: left;
+    width: 20%;
+}
+#container {
+    padding: 0 20% 0 20%;
+}
+#head1 {
+    text-align: center;
+}
+p{
+    font-size: 1rem;
+}
+.words {
+    position: relative;
+    width: 60%;
+    margin-left: 15%;
+}
+#fight img {
+    position: relative;
+    width: 60%;
+    margin-left: 15%;
+}
+h2 {
+    font-weight: bold;
+}
+.fix {
+    margin-bottom: 2%;
+}
+
+@media screen and (min-width: 1024px) {
+    p {
+        font-size: 1.2rem;
+    }
+}

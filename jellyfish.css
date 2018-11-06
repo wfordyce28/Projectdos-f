@@ -1,0 +1,134 @@
+@font-face {
+    font-family: "jane-austen";
+    src: url("../fonts/jane-austen.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+#container {
+    position: relative;
+    border: black 1px solid;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 5%;
+}
+#journal {
+    position: relative;
+    border-top: black 1px solid;
+    border-bottom: black 1px solid;
+    margin: 2% 2% 0 2%;
+    text-align: center;
+}
+#medusa {
+    position: relative;
+    text-align: center;
+}
+#volume {
+    position: relative;
+    transform: rotate(270deg);
+    float: left;
+    margin-top: -80%;
+    margin-left: -10%;
+}
+#jellyfish img {
+    position: relative;
+    width: 60%;
+    margin-left: 20%;
+
+}
+#deg {
+    position: relative;
+    margin-top: -25%;
+    margin-left: 8%;
+}
+#dots {
+    position: relative;
+    margin-top: -18%;
+    margin-left: 7%;
+}
+#jane {
+    position: relative;
+    transform: rotate(270deg);
+    float: right;
+    margin-top: -80%;
+    margin-right: -45%;
+}
+#day {
+    border-top: black 1px solid;
+}
+h1 {
+    font-size: 1rem;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    color: gray;
+}
+h4 {
+    font-family: jane-austen;
+    font-size: .5rem;
+}
+#may {
+    text-align: center;
+    font-size: .7rem;
+}
+
+
+@media screen and (min-width: 768px){
+#journal {
+    width: 45%;
+}
+#medusa {
+    float: right;
+    margin-top: -26%;
+    margin-right: 2%;
+}
+h2 {
+    font-size: 4rem;
+}
+h3 {
+    font-size: 3rem;
+}
+h4 {
+    font-size: 1rem;
+}
+#may {
+    font-size: 1rem;
+}
+#jellyfish img {
+    margin-top: -10%;
+}
+#jane {
+    margin-top: -70%;
+    margin-right: -35%;
+}
+#day {
+    margin-top: -8%;
+}
+}
+
+
+@media screen and (min-width: 1024px){
+#medusa {
+    margin-top: -23%;
+    margin-right: 3%;
+}
+h2 {
+    font-size: 5rem;
+}
+#journal {
+    margin-left: 3%;
+}
+h3 {
+    font-size: 4rem;
+}
+#volume {
+    margin-left: -10%;
+}
+#jane {
+    margin-right: -35%;
+}
+h4 {
+    font-size: 1.3rem;
+}
+}
